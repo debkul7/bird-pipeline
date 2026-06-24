@@ -1,3 +1,8 @@
+
+<div align="center">
+    <img src="images/icons8-bird-50.png">
+</div>
+
 # Bird Observations Pipeline
 
 ## Overview
@@ -84,3 +89,6 @@ in several ways:
 - **Orchestration** — Airflow would run on a managed service 
   (Example: Google Cloud Composer) rather than locally via Docker
 - **Scale** — GBIF API limit would be removed to process full datasets
+
+## Credits
+Bird icon by [Icons8](https://icons8.com)
