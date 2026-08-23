@@ -58,12 +58,13 @@ bird-pipeline/
 ```
 ## How to Run
 
-1. Clone the repository: `git clone https://github.com/debkul7/bird-pipeline.git`.
-2. Enter the project folder: `cd bird-pipeline`.
-3. Run `docker compose up`.
-4. Open Airflow UI at `http://localhost:8080`.
-5. Log in with `airflow` / `airflow`.
-6. Trigger the `bird_pipeline` DAG manually.
+1. Make sure Docker Desktop is running (start the app and wait for it to finish loading).
+2. Clone the repository: `git clone https://github.com/debkul7/bird-pipeline.git`.
+3. Enter the project folder: `cd bird-pipeline`.
+4. Run `docker compose up`.
+5. Open Airflow UI at `http://localhost:8080`.
+6. Log in with `airflow` / `airflow`.
+7. Trigger the `bird_pipeline` DAG manually.
 
 ## Data Source
 
