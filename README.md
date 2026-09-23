@@ -9,7 +9,7 @@
 
 This pipeline automatically ingests bird observation data from the GBIF API  for Lower Silesia, Poland, transforms it through a Medallion Architecture  (Bronze -> Silver -> Gold), and loads it into DuckDB for analytical queries. Orchestrated by Apache Airflow and fully containerized with Docker.
 
-This project grew out of my postgraduate Data Science studies at WSB Merito Wrocław (Data Science), where I worked with Global Biodiversity Information Facility (GBIF) bird data for the first time. I realized I was more excited about building the pipeline than analyzing the results...so I rebuilt it from scratch, this time focused on data engineering.
+This project grew out of my postgraduate Data Science studies at WSB Merito Wrocław (Data Science), where I worked with Global Biodiversity Information Facility (GBIF) bird data for the first time.
 
 ## Prerequisites
 
