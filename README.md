@@ -85,7 +85,7 @@ pipeline, demonstrating:
 
 - Multi-table JOINs against a manually curated `family_habitat` reference
   table (habitat classification by bird family, based on general
-  ornithological knowledge — not sourced from GBIF)
+  ornithological knowledge, not sourced from GBIF)
 - GROUP BY with multiple aggregate functions
 - CTEs combined with a window function (RANK) to rank species by
   observation count within each locality
@@ -93,8 +93,7 @@ pipeline, demonstrating:
   above-average number of localities
 - A data-quality check for duplicate records (same species, date and
   locality)
-- A source-to-target row-count reconciliation between the Silver and
-  Gold layers
+
 
 **Known limitation:** the current sample only covers January 2024,
 likely due to the GBIF API's default result ordering combined with the
